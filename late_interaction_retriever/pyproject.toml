@@ -1,0 +1,14 @@
+[project]
+name = "late-interaction-retriever"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chonkie[semantic]>=1.2.1",
+    "docling>=2.52.0",
+    "fastembed>=0.7.3",
+    "ipykernel>=6.30.1",
+    "qdrant-client>=1.15.1",
+    "sentence-transformers>=5.1.0",
+]
